@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: CAR-SERVICE
+  cloud:
+    config:
+      enabled: true
+      uri: http://localhost:8083
