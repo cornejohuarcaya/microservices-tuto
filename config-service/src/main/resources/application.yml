@@ -9,6 +9,8 @@ spring:
       server:
         git:
           default-label: eureka
-          uri: https://github.com/alejorcode/microservices-tuto
-          search-paths: config-data
+          uri: https://github.com/cornejohuarcaya/microservices-tuto.git
+          clone-on-start: true
+          force-pull: false
+          refresh-rate: 15
           
